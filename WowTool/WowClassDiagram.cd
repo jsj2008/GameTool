@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebDetection.RealmItem" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Char\CharItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.CharItem" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABA=</HashCode>
+      <FileName>Char\CharItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.UnBattleCharItem" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAABACAA=</HashCode>
+      <FileName>Char\CharItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.BattleCharItem" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAAAAAAAAAAAEAAAAAAQAAAACQABAAAEAAAAAAAE=</HashCode>
+      <FileName>Char\CharItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.EUBattleCharGetter" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAA=</HashCode>
+      <FileName>Char\EUBattleCharGetter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.USBattleCharGetter" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiAEgAQSMEAAEAAEAAAAAkAEAEAABAABAA=</HashCode>
+      <FileName>Char\USBattleCharGetter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.USUnbattleCharGetter" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAkAEEAICEEAAAAAAAgAAAAAEAAACBAAAAA=</HashCode>
+      <FileName>Char\USUnbattleCharGetter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.FrmWebDetection" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>//kUgoLCwHiFEpYZAhTILEGKFAw8YUiDs6SDKQQAifA=</HashCode>
+      <FileName>FrmWebDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.EUBattleLoginHttper" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Http\EUBattleLoginHttper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.KRBattleLoginHttper" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Http\KRBattleLoginHttper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.SeaBattleLoginHttper" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABABACCAAAAAAABAAAQAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Http\SeaBattleLoginHttper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.TWBattleLoginHttper" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Http\TWBattleLoginHttper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.USBattleLoginHttper" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAQAEABAFBgCEBQAQCBhARIQgAAGgAAEAAAAEBAIA=</HashCode>
+      <FileName>Http\USBattleLoginHttper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.CharItemComparer&lt;T&gt;" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Http\USBattleLoginHttper_char.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.WowHttperLoginBase" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAIA=</HashCode>
+      <FileName>Http\WowHttperLoginBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.WowHttperManager" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAA=</HashCode>
+      <FileName>HttpManager\WowHttperManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.WowHttpProcessor" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>HttpManager\WowHttpProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.Program" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAQ=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.Properties.Resources" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebDetection.Properties.Settings" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WebDetection.HttpHeaderType" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Char\USBattleCharGetter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
