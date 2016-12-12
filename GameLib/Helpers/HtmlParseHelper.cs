@@ -11,6 +11,7 @@ namespace PublicUtilities
         private readonly object lockInnerTextObject = new object();
         private readonly string[] innerTextSplit = { ">", " >", "'>", "' >", "\">", "\" >" };
         private const string HTMLPREFIX = "<";
+        private const int TRYMAX = 100;
 
         public static bool IsContains(string rawContent, params string[] subStrings)
         {
@@ -41,6 +42,7 @@ namespace PublicUtilities
                 int endIndex = -1;
                 string subConten = string.Empty;
                 foundIndex = 0;
+                int count = 0;
                 while (true)
                 {
                     startIndex = rawContent.IndexOf(startSymbol, 0, StringComparison.CurrentCultureIgnoreCase);
@@ -57,6 +59,10 @@ namespace PublicUtilities
                     if (++foundIndex == index)
                     {
                         return subConten;
+                    }
+                    if (count++ >= TRYMAX)
+                    {
+                        return string.Empty;
                     }
                 }
             }
@@ -98,6 +104,9 @@ namespace PublicUtilities
                     {
                         rawContent = rawContent.Replace(item, "");
                         itemList.Add(item);
+                    }else
+                    {
+                        break;
                     }
                 }
                 return itemList;
@@ -127,6 +136,11 @@ namespace PublicUtilities
                             itemList.Add(item);
                         }
                     }
+                    else
+                    {
+                        break;
+                    }
+
                 }
                 return itemList;
             }
